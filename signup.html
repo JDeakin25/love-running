@@ -41,7 +41,7 @@
     <!-- Main Element -->
     <main>  
         <section id="signup">
-            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net" >
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net" >
                 <h2><i class="fa-solid fa-heart-pulse"></i>Let's Get You Signed Up!</h2>
                 
                 <!-- Signup text entry fields -->
@@ -55,14 +55,16 @@
                 <input type="email" id="email-address" class="text-input" name="email_address" required>
                 
                 <!-- Signup Radio Buttons -->
-                <div id="radio-buttons">
+                <div class="radio-buttons">
                     <div>
                         <label for="road">Road </label>
                         <input type="radio" name="running_preference" id="road" value="Road" required checked>
-                        <br>
+                    </div>
+                    <div>
                         <label for="trail">Trail </label>
                         <input type="radio" name="running_preference" id="trail" value="Trail" required>
-                        <br>
+                    </div>
+                    <div>
                         <label for="both">Both </label>
                         <input type="radio" name="running_preference" id="both" value="Both" required>
                     </div>
